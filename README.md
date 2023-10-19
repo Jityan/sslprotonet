@@ -1,6 +1,6 @@
 # SSL-ProtoNet: Self-supervised Learning Prototypical Networks for Few-shot Learning
 
-This repository contains the **pytorch** code for the under review paper: "SSL-ProtoNet: Self-supervised Learning Prototypical Networks for Few-shot Learning" Jit Yan Lim, Kian Ming Lim, Chin Poo Lee, Yong Xuan Tan
+This repository contains the **pytorch** code for the paper: "[SSL-ProtoNet: Self-supervised Learning Prototypical Networks for Few-shot Learning](https://doi.org/10.1016/j.eswa.2023.122173)" Jit Yan Lim, Kian Ming Lim, Chin Poo Lee, Yong Xuan Tan
 
 ## Environment
 The code is tested on Windows 10 with Anaconda3 and following packages:
@@ -21,6 +21,10 @@ The code is tested on Windows 10 with Anaconda3 and following packages:
     - **CIFARFS**: download from [MetaOptNet](https://github.com/kjunelee/MetaOptNet) and put in `data/cifar-fs` folder.
 
 
+## Pre-trained Models
+[Optional] The pre-trained models can be downloaded from [here](https://drive.google.com/file/d/120ywPFRmgOsg-43I42i6uOzXW6wknruY/view?usp=share_link). Extract and put the content in the save folder. To evaluate the model, run the test.py file with the proper save path as in the next section.
+
+
 ## Experiments
 To train on 1-shot and 5-shot CIFAR-FS:<br/>
 ```
@@ -36,6 +40,21 @@ To evaluate on 5-way 1-shot and 5-way 5-shot CIFAR-FS:<br/>
 ```
 python test.py --dataset cifarfs --shot 1 --save-path ./save/cifarfs-stage3-1s
 python test.py --dataset cifarfs --shot 5 --save-path ./save/cifarfs-stage3-1s
+```
+
+
+## Citation
+If you find this repo useful for your research, please consider citing the paper:
+```
+@article{LIM2023122173,
+  title = {SSL-ProtoNet: Self-supervised Learning Prototypical Networks for few-shot learning},
+  journal = {Expert Systems with Applications},
+  pages = {122173},
+  year = {2023},
+  issn = {0957-4174},
+  doi = {https://doi.org/10.1016/j.eswa.2023.122173},
+  author = {Jit Yan Lim and Kian Ming Lim and Chin Poo Lee and Yong Xuan Tan}
+}
 ```
 
 ## Contacts
