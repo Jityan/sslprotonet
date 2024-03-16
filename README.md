@@ -22,7 +22,7 @@ The code is tested on Windows 10 with Anaconda3 and following packages:
 
 
 ## Pre-trained Models
-[Optional] The pre-trained models can be downloaded from [here](https://drive.google.com/file/d/120ywPFRmgOsg-43I42i6uOzXW6wknruY/view?usp=share_link). Extract and put the content in the save folder. To evaluate the model, run the test.py file with the proper save path as in the next section.
+[Optional] The pre-trained models can be downloaded from [here](https://drive.google.com/file/d/14IOHnVfVACpkhjj1o3ZjwG7YD4p6ULLM/view?usp=sharing). Extract and put the content in the save folder. To evaluate the model, run the test.py file with the proper save path as in the next section.
 
 
 ## Experiments
